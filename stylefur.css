@@ -1,0 +1,241 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+:root{
+    --brown:rgb(90, 22, 22);
+}
+body{
+    overflow-x: hidden;
+}
+#logo{
+width: 120%;
+height: 130px;
+}
+
+ul li{
+    font-size: 20px;
+}
+li i{
+    color: rgba(188, 188, 188, 0.847);
+}
+
+li button{
+    border: 2px solid brown;
+    
+}
+
+#contact{
+    background-color: var(--brown);
+    color: white;
+}
+
+#contact:hover{
+    background-color: white;
+    color:var(--brown);
+    border-color: var(--brown);
+}
+
+@media(min-width:992px){
+    ul{
+        display: flex;
+        align-item: center;
+    }
+}
+
+@media(max-width:991px){
+    .nav-item i{
+  display: none;
+    }
+    }
+
+    .main{
+        background-image: url('./images/table4.avif');
+        width: 100%;
+        height: 100vh;
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: bottom;
+        background-attachment: fixed;
+    }
+     
+     .bg{
+        width: 100%;
+        height: 100vh;
+        background-color: rgba(0, 0, 0, 0.395);
+     }
+
+
+
+
+       .welcome{
+        padding-top: 18%;
+        padding-left: 8%
+       }
+    .welcome p{
+        color: white;
+        font-size: 30px;
+
+    }
+    .welcome h1{
+        color: white;
+        font-size: 100px;
+        font-weight: 600px;
+    }
+     @media (max-width:600px){
+        .welcome p{
+            padding-top:8%;
+        }
+        .welcome h1{
+            font-size: 50px;
+     }
+    }
+
+    #contactbtn{
+        color: white;
+        border-color: white;
+        font-size: 20px;
+        margin-bottom: 8%;
+       
+    }
+
+    .work{
+        background-image: url('https://i.pinimg.com/736x/93/74/28/937428d915dfa4ecbe09cc7c64879bfd.jpg');
+        width: 100%;
+        height: 50vh;
+      background-position: cover;
+      padding-top:8%;
+     
+    }
+    .work h1{
+        font-size: 50px;
+    }
+    .viewBtn{
+        border-color: var(--brown);
+        color: var(--brown);
+    }
+    .viewBtn:hover{
+        background-color: var(--brown);
+        color: white;
+    }
+    #about{
+        background-color: rgb(217, 214, 214,0.642);
+        padding-top: 10%;
+        padding-bottom: 10%;
+    }
+    #aboutimg{
+        border: 7px solid var(--brown);
+        height: 490px;
+        width: 100%;
+    }
+    #about h1{
+        color: var(--brown);
+    }
+    .hr{
+        width: 20%;
+        height: 7px;
+        background-color: var(--brown);
+    }
+    .projimg{
+        position: relative;
+    }
+
+    .rosewood{
+        width: 40%;
+        padding: 10px;
+        background-color: black;
+        color: white;
+        position: absolute;
+       display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-top: 90.6%;
+    }
+    @media(min-width:600px){
+        .rosewood{
+            width: 40%;
+            height:10%;
+        }
+    }
+    @media(max-width:600px){
+        .rosewood{
+            width: 50%;
+            height:30%;
+        }
+    }
+.vice{
+    width: 50%;
+        padding: 0px;
+        background-color: black;
+        color: white;
+        position: absolute;
+       display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-top: 0%;
+}
+    .side{
+        width: 40%;
+        padding: 3px;
+        background-color: black;
+        color: white;
+        position: absolute;
+       display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-top: 0%;
+    }
+    .counter{
+        width: 40%;
+        height: 20%;
+        padding: 10px;
+        background-color: black;
+        color: white;
+        position: absolute;
+       display: flex;
+        align-items: center;
+        justify-content: center;
+        bottom: 0px;
+    }
+    .chair{
+        width: 40%;
+        height: 20%;
+        padding: 10px;
+        background-color: black;
+        color: white;
+        position: absolute;
+       display: flex;
+        align-items: center;
+        justify-content: center;
+     bottom: 0px;
+    }
+    .table{
+        width: 40%;
+        height: 20%;
+        padding: 10px;
+        background-color: black;
+        color: white;
+        position: absolute;
+       display: flex;
+        align-items: center;
+        justify-content: center;
+        bottom: 0px;
+    }
+        
+    .testimonial{
+        margin-top: 8%;
+    }
+    .testimonial .people{
+        margin-left: 8%;
+    }
+    .textiImg{
+        width: 170px;
+        height: 170px;
+        border-radius: 50%;
+    }
+    .footer{
+        background-color: rgb(55, 55, 55);
+        width: 100%;
+        /*height: 450px;*/
+        margin-top: 8%;
+    }
